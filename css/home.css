@@ -226,10 +226,7 @@
 }
 
 .team__item {
-    width: 19%;
-}
-
-.team__item:hover {
+    
     width: 20%;
 }
 
