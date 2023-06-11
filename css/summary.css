@@ -90,6 +90,12 @@
     border-radius: 26.8488px;
 }
 
+.fill__summary:hover {
+
+    background: #A8ACF6;
+    border: 3.3561px solid #000000;
+}
+
 #text {
 
     font-family: 'Jost';
