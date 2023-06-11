@@ -59,7 +59,7 @@
     margin-top: 60px;
     font-family: 'Jost';
     font-weight: 400;
-    font-size: 22px;
+    font-size: 20px;
     color: #000000;
     text-align: left;
     padding: 18px;
@@ -116,6 +116,7 @@
 .stage {
 
     margin: 10px 0 30px;
+
 }
 
 .stage__inner {
@@ -157,4 +158,504 @@
     margin-top: 20px;
 }
 
+/* Phase 
+=======================================*/
+
+.phase {
+    margin: 10px 0 10px;
+}
+
+.phase__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-left: 0px;
+}
+
+/* Этап 1 */
+
+.phase__header__1 {
+
+    text-align: center;
+    width: 100%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+
+.phase__people {
+
+    width: 100%;
+    float: right;
+    height: 90%;
+}
+
+/* Этап 2 */
+
+.phase__header__2 {
+
+    text-align: center;
+    width: 100%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.phase__block__2 {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+/* Этап 2.1 - 2.2 */
+
+.flex {
+    display: flex;
+}
+
+/* Этап 2.1 */
+
+.one__line {
+
+    display: block;
+    width: 50%;
+}
+
+.phase__header__2_1 {
+
+    text-align: left;
+    width: 85%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 43px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.phase__block__2_1 {
+    
+    width: 85%;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+/* Этап 2.2 */
+
+.two__line {
+
+    display: block;
+    width: 50%;
+}
+
+.phase__header__2_2 {
+
+    text-align: left;
+    width: 85%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 43px;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0px;
+}
+
+.phase__block__2_2 {
+    
+    width: 85%;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+/* Этап 3 */
+
+.phase__header__3 {
+
+    text-align: center;
+    width: 100%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.phase__block__3 {
+
+    width: 50%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 25px;
+}
+
+.phase__img__3 {
+
+    width: 50%;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.phase__people__3 {
+
+    width: 90%;
+    height: 100%;
+}
+
+/* Этап 4 */
+
+.phase__header__4 {
+
+    text-align: center;
+    width: 100%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.phase__block__4 {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.block__skills__4_1 {
+    
+    width: 50%;
+    height: auto;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    padding: 15px;
+}
+
+.block__skills__4_2 {
+    
+    width: 50%;
+    height: auto;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 20px;
+    color: #000000;
+    padding: 15px;
+}
+
+/* Recruiter advice
+========================================== */
+
+.recruiter {
+    margin: 10px 0 10px;
+}
+
+.recruiter__inner {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.recruiter__header {
+
+    width: 100%;
+    height: 98.65px;
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 35px;
+    color: #2405F2;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.recruiter__block {
+
+    width: 100%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.color {
+
+    font-weight: bold;
+    color: #2405F2;
+
+}
+
+/* Media
+===================*/
+
+@media (max-width: 2560px) {
+
+    .intro__item__phone {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+    #header {
+        font-size: 40px;
+    }
+
+    #header__rec {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 820px) {
+
+    .intro__text {
+        display: none;
+    }
+
+    .intro__item__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro__item {
+
+        display: none;
+    }
+
+    .intro__item__phone {
+
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .intro__photo {
+
+        width: 60%;
+    }
+
+    .summary {
+
+        justify-content: center;
+    }
+
+    #blocks {
+
+        font-size: 18px;
+    }
+}
+ 
+@media (max-width: 768px) {
+
+    
+}
+
+@media (max-width: 425px) {
+
+    .intro {
+
+        margin-bottom: 0;
+    }
+
+    .intro__item__text {
+
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .intro__name {
+
+        margin-bottom: 0;
+    }
+
+    .intro__photo {
+
+        width: 90%;
+    }
+
+    .summary {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 120.82px;
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+    
+    .fill__summary {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 46.9854px 33.561px;
+        gap: 33.56px;
+        width: 350px;
+        height: 110px;
+        left: 172px;
+        top: 718px;
+        background: #323232;
+        border: 3.3561px solid #D0D0D0;
+        border-radius: 26.8488px;
+    }
+
+    #header {
+
+        font-size: 30px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+
+    #blocks {
+
+        font-size: 15px;
+    }
+
+    #header__rec {
+        font-size: 20px;
+    }
+
+    /* Адаптив изображений */
+
+    .phase__block__1 {
+
+        width: 100%;
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 20px;
+        color: #000000;
+        padding: 0px;
+        margin-top: 15px;
+    }
+    
+    .phase__img__1 {
+    
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .phase__people {
+
+        width: 90%;
+        float: right;
+        height: 90%;
+    }
+    
+    .flex {
+        display: block;
+    }
+
+    .one__line {
+
+        display: block;
+        width: 100%;
+    }
+
+    .two__line {
+
+        display: block;
+        width: 100%;
+    }
+
+    .phase__block__3 {
+
+        width: 100%;
+        font-family: 'Jost';
+        font-weight: 200;
+        font-size: 20px;
+        color: #000000;
+        padding: 0px;
+        margin-top: 25px;
+    }
+    
+    .phase__img__3 {
+    
+        width: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .phase__people__3 {
+    
+        width: 90%;
+        float: left;
+        height: 100%;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .block__skills__4_1 {
+    
+        width: 100%;
+        height: auto;
+        font-family: 'Jost';
+        font-weight: 300;
+        font-size: 20px;
+        color: #000000;
+        padding: 15px;
+    }
+    
+    .block__skills__4_2 {
+        
+        width: 100%;
+        height: auto;
+        font-family: 'Jost';
+        font-weight: 300;
+        font-size: 20px;
+        color: #000000;
+        padding: 15px;
+    }
+
+}
 

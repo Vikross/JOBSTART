@@ -261,6 +261,8 @@
 
     width: 100%;
     margin-top: 65px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .bad__good__expl {
@@ -655,7 +657,51 @@
     }
 }
 
-@media (max-width: 991px) {}
+@media (max-width: 991px) {
+
+    /* Intro=================================== */
+
+    .intro {
+        margin: 100px 0 20px;
+    }
+
+    .intro__item {
+        display: none;
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    
+    .intro__item__text {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 10px;
+        margin-top: 55px;
+        font-family: 'Jost';
+    }
+
+    .intro__name {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-family: 'Jost';
+        color: #A8ACF6;
+        text-align: center;
+    }
+
+    .intro__text {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+        margin-top: 55px;
+        font-family: 'Jost';
+        color: #000000;
+        text-align: left;
+        margin-left: 20px;
+    }
+}
  
 @media (max-width: 768px) {
 
