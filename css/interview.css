@@ -188,6 +188,25 @@
     padding: 15px;
 }
 
+.phase__block__1 {
+
+    width: 50%;
+    font-family: 'Jost';
+    font-weight: 200;
+    font-size: 20px;
+    color: #000000;
+    padding: 0px;
+    margin-top: 15px;
+}
+
+.phase__img__1 {
+    
+    display: flex;
+    width: 45%;
+    height: 100%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
 
 .phase__people {
 
@@ -195,6 +214,7 @@
     float: right;
     height: 90%;
 }
+
 
 /* Этап 2 */
 
