@@ -230,6 +230,11 @@
     width: 20%;
 }
 
+.team__item:hover {
+    
+    width: 19.5%;
+}
+
 .team__photo {
     display: block;
     max-width: 100%;
