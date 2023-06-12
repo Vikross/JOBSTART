@@ -358,6 +358,17 @@ p {
     bottom: -8px;
 }
 
+.footer__block1 {
+
+    width: 33%;
+}
+
+.footer__logo {
+
+    width: 70%;
+    margin-top: 0%;
+}
+
 
 
 /* Media
