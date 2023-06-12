@@ -422,6 +422,10 @@ p {
         display: block;
     }
 
+    .footer__block__hight p {
+        display: none;
+    }
+
 }
  
 @media (max-width: 768px) {
@@ -503,7 +507,7 @@ p {
     .footer__block__hight h4 {
         width: 100%;
         margin-top: 0px;
-        font-size: 20px;
+        font-size: 15px;
         margin-left: 0px;
     }
 }

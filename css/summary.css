@@ -286,8 +286,9 @@
 .letter__img {
 
     width: 40%;
-    margin-right: 50px;
+    margin-right: 40px;
     margin-top: 10px;
+    margin-left: 10px;
 }
 
 .letter__people {
