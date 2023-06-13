@@ -76,7 +76,7 @@
     margin: 0 -15px;
 }
 
-.organization__img {
+.organization__img__head {
 
     width: 45%;
     margin-right: 0px;
@@ -84,7 +84,7 @@
     margin-left: 10px;
 }
 
-.organization__people {
+.organization__people__head {
 
     width: 100%;
 }
@@ -163,13 +163,18 @@
     margin-top: 25px;
 }
 
-.rols__img {
+.rols__img_1 {
     
     display: flex;
     width: 35%;
     height: 100%;
     margin-top: 60px;
     margin-left: 10px;
+}
+
+.rols__people_1 {
+
+    width: 100%;
 }
 
 .rols__people {
@@ -286,6 +291,11 @@
 
         display: none
     }
+
+    .rols__img_0 {
+
+        display: none;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -316,7 +326,7 @@
         font-size: 18px;
     }
 
-    .rols__img {
+    .rols__img_1 {
     
         display: flex;
         width: 35%;
@@ -324,9 +334,50 @@
         margin-top: 20px;
         margin-left: 10px;
     }
+
+
 }
 
 @media (max-width: 820px) {
+
+    .rols__block {
+
+        width: 100%;
+    }
+
+    .rols__img_0 {
+
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .rols__people_0 {
+
+        width: 70%;
+    }
+
+    .rols__img_1 {
+
+        display: none;
+    }
+
+    .organization__img__head {
+
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-left: 10px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .organization__people__head {
+    
+        width: 80%;
+    }
 
     .intro__text {
         display: none;
@@ -349,7 +400,6 @@
         width: 80%;
     }
 
-
     .summary {
 
         justify-content: center;
@@ -358,6 +408,11 @@
     #blocks {
 
         font-size: 18px;
+    }
+
+    .organization__block__point {
+
+        width: 100%;
     }
 }
  
@@ -375,7 +430,7 @@
         font-size: 18px;
     }
 
-    .organization__img {
+    .organization__img__head {
 
         display: flex;
         width: 100%;
@@ -387,7 +442,7 @@
         margin-bottom: 20px;
     }
     
-    .organization__people {
+    .organization__people__head {
     
         width: 80%;
     }
@@ -395,11 +450,6 @@
     .organization__block__point {
 
         width: 100%;
-    }
-
-    .rols__img {
-
-        display: none;
     }
 
     .rols__block {
@@ -412,11 +462,6 @@
         width: 100%;
         display: flex;
         justify-content: center;
-    }
-
-    .rols__people {
-
-        width: 80%;
     }
 
     .rols__block__arrow {
